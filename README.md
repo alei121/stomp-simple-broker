@@ -1,5 +1,8 @@
 # stomp-simple-broker
-A simple stomp message broker sample using Spring Framework
+A simple stomp message broker sample.
+
+It uses Spring Framework's simple messaging broker, which handles pubsub using STOMP messages over WebSocket.
+It also provides a webpage to connect/subscribe/publish using [stomp.js](https://github.com/jmesnil/stomp-websocket)
 
 ### Compile with:
   `mvn clean install`
